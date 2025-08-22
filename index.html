@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+    console.log("Hello Wolrd")
+
+    // function getRandomAbritrary(min, max) {
+    //     return Math.random() * (max - min) + min;
+    // }
+    // const result = getRandomAbritrary(1,100);
+    //     console.log(result);
+    function getComputerChoice() {
+        let zero = "Rock"
+        let one = "Paper"
+        let two = "Scissors"
+        let answer = Math.floor(Math.random() * 3)
+
+        console.log(answer)
+
+        if(answer === 0) {
+            return zero
+        } else if (answer === 1){
+            return one
+        } else {
+            return two
+        }
+    }
+    
+
+        
+ </script>
+    
+</body>
+</html>
